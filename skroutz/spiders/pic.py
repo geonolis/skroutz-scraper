@@ -13,7 +13,7 @@ class Pic(CrawlSpider):
         # More start_urls can be added (more product categories)
         'https://www.skroutz.gr/c/25/laptop.html'
     ]
-    
+
     rules = [
         Rule(LinkExtractor(
             allow=[r'.*c/\d{1,4}/.*\.html\?page=\d+']),
@@ -53,8 +53,6 @@ class Pic(CrawlSpider):
 
     def parse_product(self, response):
         self.product_count += 1
-        # Print which product the spider is currently processing
-        print('\r## Product : {} of ~{}'.format(str(self.product_count), self.total_products)),
         item = response.meta['item']
         item['product_name'] = response.xpath('//div/div/h1/text()').extract()[0].strip()
         # Locate the image links and store them in the image_urls Field
@@ -64,4 +62,3 @@ class Pic(CrawlSpider):
         other_images.insert(0, main_image)
         item['image_urls'] = other_images
         return item
-        

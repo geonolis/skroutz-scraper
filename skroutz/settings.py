@@ -30,7 +30,7 @@ ITEM_PIPELINES = {
 
 # Full path, not relative
 # Should be set accordingly (in this format : \path\to\directory)
-IMAGES_STORE = '\path\to\images\directory'
+IMAGES_STORE = 'IMG'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
