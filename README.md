@@ -9,9 +9,9 @@ more categories and the IMAGES_STORES attribute in settings.py to change the dow
 CustomImagesPipeline overrides the default ImagesPipeline functionality. It stores the images in  
 dedicated directories for every item (product) after the download process has been completed.
 
-## Disclaimer
-Always respect the policy of the website and the restrictions of robots.txt.  
-Change the USER_AGENT variable in settings.py to identify yourself (and your website). 
-
 ## Requirements
 Skroutz-scraper requires Scrapy and Pillow in order to work.
+
+## Disclaimer
+Always respect the policy of the website and the restrictions of robots.txt.  
+Change the USER_AGENT variable in settings.py to identify yourself (and your website).
