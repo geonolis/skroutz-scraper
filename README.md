@@ -7,6 +7,8 @@ more categories and the IMAGES_STORES attribute in settings.py to change the dow
 
 To run a spider (for example pic) : `scrapy crawl pic`
 
+<a href="https://im5.ezgif.com/tmp/ezgif-5-004a5c1ebb.gif"><img src="https://im5.ezgif.com/tmp/ezgif-5-004a5c1ebb.gif" title="mytitle"/></a>
+
 ## Pipelines
 CustomImagesPipeline overrides the default ImagesPipeline functionality. It stores the images in  
 dedicated directories for every item (product) after the download process has been completed.
