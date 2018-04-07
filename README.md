@@ -7,8 +7,6 @@ more categories and the IMAGES_STORES attribute in settings.py to change the dow
 
 To run a spider (for example pic) : `scrapy crawl pic`
 
-<img src="https://media.giphy.com/media/dQlhgYJfKRLK7RW07L/giphy.gif" width="522" height="365" />
-
 ## Pipelines
 CustomImagesPipeline overrides the default ImagesPipeline functionality. It stores the images in  
 dedicated directories for every item (product) after the download process has been completed.
@@ -19,3 +17,5 @@ Skroutz-scraper requires Scrapy and Pillow in order to work.
 ## Disclaimer
 Always respect the policy of the website and the restrictions of robots.txt.  
 Change the USER_AGENT variable in settings.py to identify yourself (and your website).
+
+<img src="https://media.giphy.com/media/dQlhgYJfKRLK7RW07L/giphy.gif"/>
