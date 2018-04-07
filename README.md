@@ -7,7 +7,7 @@ more categories and the IMAGES_STORES attribute in settings.py to change the dow
 
 To run a spider (for example pic) : `scrapy crawl pic`
 
-<img src="https://media.giphy.com/media/dQlhgYJfKRLK7RW07L/giphy.gif" width="500" height="500" />
+<img src="https://media.giphy.com/media/dQlhgYJfKRLK7RW07L/giphy.gif"/>
 
 ## Pipelines
 CustomImagesPipeline overrides the default ImagesPipeline functionality. It stores the images in  
