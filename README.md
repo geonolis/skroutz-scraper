@@ -18,4 +18,6 @@ Skroutz-scraper requires Scrapy and Pillow in order to work.
 Always respect the policy of the website and the restrictions of robots.txt.  
 Change the USER_AGENT variable in settings.py to identify yourself (and your website).
 
+__________________
+
 <img src="https://media.giphy.com/media/dQlhgYJfKRLK7RW07L/giphy.gif"/>
